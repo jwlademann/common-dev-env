@@ -131,6 +131,7 @@ The list of allowable commodity values is:
 16. ibmmq
 17. localstack
 18. valkey
+19. govuk-one-login
 
 The file may optionally also indicate that one or more services are resource intensive ("expensive") when starting up. The dev env will start those containers seperately - 3 at a time - and wait until each are declared healthy (or crash and get restarted 10 times) before starting any more.
 
@@ -350,6 +351,16 @@ You can monitor Valkey activity using the CLI:
 bashin redis
 redis-cli monitor
 ```
+
+###### GOV.UK One Login
+
+The GOV.UK One Login simulator is a development tool that lets you run end-to-end tests, so you can:
+
+- test and verify specific user information such as names and email addresses
+- request specific error codes and learn more about what they mean in a test environment
+- test integrations with GOV.UK One Login without going through account creation
+
+See [documentation](https://github.com/govuk-one-login/simulator).
 
 #### Other files
 
