@@ -1,0 +1,6 @@
+services:
+  govuk-one-login:
+    image: ghcr.io/govuk-one-login/simulator:latest
+    ports:
+      - "3000:3000"
+    network_mode: host
