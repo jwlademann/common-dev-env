@@ -1,0 +1,1 @@
+FROM ghcr.io/govuk-one-login/simulator:latest
