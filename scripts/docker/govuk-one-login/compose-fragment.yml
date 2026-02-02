@@ -1,5 +1,6 @@
 services:
   govuk-one-login:
+    container_name: govuk-one-login
     image: ghcr.io/govuk-one-login/simulator:latest
     ports:
       - "3000:3000"
